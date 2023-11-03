@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{Count:1b,tag:{medieval_armory:{iron_dane_axe_head:1b}}}},limit=1] at @s if block ~ ~-1 ~ anvil as @e[type=item,nbt={Item:{Count:1b,tag:{medieval_armory:{quarterstaff:1b}}}},distance=..1,sort=nearest,limit=1] run function medieval_armory:ground_recipes/iron_dane_axe
