@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2221802}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Kite Shield",
+                  "italic": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

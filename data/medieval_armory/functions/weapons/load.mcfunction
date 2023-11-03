@@ -1,0 +1,1 @@
+scoreboard objectives add medieval_armory.value dummy

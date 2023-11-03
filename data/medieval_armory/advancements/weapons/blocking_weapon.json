@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "survival": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "gamemode": "survival"
+          },
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "shield"
+              ],
+              "nbt": "{medieval_armory:{blocking_weapon:1b}}"
+            }
+          }
+        }
+      }
+    },
+    "adventure": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "gamemode": "adventure"
+          },
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "shield"
+              ],
+              "nbt": "{medieval_armory:{blocking_weapon:1b}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "survival",
+      "adventure"
+    ]
+  ],
+  "rewards": {
+    "function": "medieval_armory:weapons/blocking_weapon"
+  }
+}

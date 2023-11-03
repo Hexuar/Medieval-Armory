@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Quarterstaff",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 3 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.4 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2221806}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "",
+                  "amount": -2.6,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 2,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
