@@ -39,7 +39,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221804}"
+              "tag": "{CustomModelData:2221904}"
             },
             {
               "function": "minecraft:set_nbt",

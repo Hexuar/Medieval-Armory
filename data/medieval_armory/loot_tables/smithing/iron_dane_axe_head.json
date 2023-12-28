@@ -32,7 +32,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221800,voxelsmith:{crafting_item:1b},medieval_armory:{iron_dane_axe_head:1b}}"
+              "tag": "{CustomModelData:2221900,voxelsmith:{crafting_item:1b},medieval_armory:{iron_dane_axe_head:1b}}"
             }
           ]
         }
