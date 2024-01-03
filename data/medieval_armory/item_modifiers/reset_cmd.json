@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "medieval_armory:constants"
+    },
+    "ops": [
+      {
+        "source": "bool[0]",
+        "target": "medieval_armory.lunge",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "SelectedItem.tag.medieval_armory.InitialCustomModelData",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  }
+]

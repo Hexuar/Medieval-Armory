@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:ender_pearl",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -31,6 +31,11 @@
                   "italic": false
                 },
                 {
+                  "text": " 8 Pierce Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
                   "text": " 1.4 Attack Speed",
                   "color": "dark_green",
                   "italic": false
@@ -39,7 +44,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221905}"
+              "tag": "{CustomModelData:2221910,medieval_armory:{pike:1b,polearm:1b,lunge_damage:8}}"
             },
             {
               "function": "minecraft:set_nbt",
