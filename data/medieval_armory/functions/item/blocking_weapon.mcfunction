@@ -1,2 +1,0 @@
-advancement revoke @s only medieval_armory:blocking_weapon
-function voxelsmith:durability/damage_item

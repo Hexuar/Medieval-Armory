@@ -44,7 +44,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221904,medieval_armory:{fauchard:1b,polearm:1b,thrust_damage:8}}"
+              "tag": "{CustomModelData:2221904,medieval_armory:{fauchard:1b,polearm:1b,has_durability:1b,thrust_damage:8}}"
             },
             {
               "function": "minecraft:set_nbt",

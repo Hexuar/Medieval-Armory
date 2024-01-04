@@ -43,7 +43,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,medieval_armory:{blocking_weapon:1b}}"
+              "tag": "{HideFlags:2,medieval_armory:{has_durability:1b}}"
             },
             {
               "function": "minecraft:set_attributes",

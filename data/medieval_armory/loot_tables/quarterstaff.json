@@ -44,7 +44,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221912,medieval_armory:{quarterstaff:1b,polearm:1b,thrust_damage:4}}"
+              "tag": "{CustomModelData:2221912,medieval_armory:{quarterstaff:1b,polearm:1b,has_durability:1b,thrust_damage:4}}"
             },
             {
               "function": "minecraft:set_nbt",
