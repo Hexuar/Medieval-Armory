@@ -8,7 +8,7 @@
     "ops": [
       {
         "source": "bool[1]",
-        "target": "medieval_armory.lunge",
+        "target": "medieval_armory.thrust",
         "op": "replace"
       }
     ]

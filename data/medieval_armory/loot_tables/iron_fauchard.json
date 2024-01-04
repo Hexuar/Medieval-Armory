@@ -31,7 +31,7 @@
                   "italic": false
                 },
                 {
-                  "text": " 8 Pierce Damage",
+                  "text": " 8 Thrust Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -44,7 +44,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221904,medieval_armory:{fauchard:1b,polearm:1b,lunge_damage:8}}"
+              "tag": "{CustomModelData:2221904,medieval_armory:{fauchard:1b,polearm:1b,thrust_damage:8}}"
             },
             {
               "function": "minecraft:set_nbt",

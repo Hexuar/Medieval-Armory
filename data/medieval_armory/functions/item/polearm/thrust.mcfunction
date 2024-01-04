@@ -8,7 +8,7 @@ execute store result storage medieval_armory:temp CustomModelData int 1 run scor
 item modify entity @s weapon.mainhand medieval_armory:set_cmd
 
 # Damage
-data modify storage medieval_armory:temp damage set from entity @s SelectedItem.tag.medieval_armory.lunge_damage
+data modify storage medieval_armory:temp damage set from entity @s SelectedItem.tag.medieval_armory.thrust_damage
 
 execute anchored eyes positioned ^ ^ ^1.6 at @e[distance=..1.5] run particle minecraft:damage_indicator ~ ~1 ~ 0.5 0.5 0.5 0 4
 execute anchored eyes positioned ^ ^ ^3 at @e[distance=..1.5] run particle minecraft:damage_indicator ~ ~1 ~ 0.5 0.5 0.5 0 4
