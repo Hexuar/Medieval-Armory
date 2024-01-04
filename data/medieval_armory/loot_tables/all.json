@@ -143,15 +143,6 @@
             "name": "medieval_armory:round_shield"
           }
         ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "medieval_armory:wooden_club"
-          }
-        ]
       }
     ]
   }
