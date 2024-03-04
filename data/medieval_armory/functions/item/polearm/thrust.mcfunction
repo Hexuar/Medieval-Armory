@@ -1,5 +1,11 @@
 # Cooldown
-scoreboard players set @s medieval_armory.ender_pearl_cooldown 20
+scoreboard players set @s medieval_armory.polearm_cooldown 15
+
+# Durability
+function voxelsmith:durability/damage_item
+
+# Sound
+playsound entity.player.attack.sweep player @a ~ ~ ~
 
 # CustomModelData
 execute store result score #CustomModelData medieval_armory.value run data get entity @s SelectedItem.tag.CustomModelData
@@ -13,9 +19,6 @@ execute store result score #damage medieval_armory.value run data get entity @s 
 execute store result storage medieval_armory:temp particles int 0.5 run scoreboard players get #damage medieval_armory.value
 
 tag @s add medieval_armory.damage_source
-execute positioned ^ ^1 ^1.1 as @e[distance=..1] at @s run function medieval_armory:item/polearm/damage with storage medieval_armory:temp
-execute positioned ^ ^1 ^2.1 as @e[distance=..1,tag=!medieval_armory.damaged] at @s run function medieval_armory:item/polearm/damage with storage medieval_armory:temp
-execute positioned ^ ^1 ^3.1 as @e[distance=..1,tag=!medieval_armory.damaged] at @s run function medieval_armory:item/polearm/damage with storage medieval_armory:temp
-execute positioned ^ ^1 ^4.1 as @e[distance=..1,tag=!medieval_armory.damaged] at @s run function medieval_armory:item/polearm/damage with storage medieval_armory:temp
-tag @e[tag=medieval_armory.damaged] remove medieval_armory.damaged
+scoreboard players set #distance medieval_armory.value 0
+execute anchored eyes positioned ^ ^ ^0.5 run function medieval_armory:item/polearm/find_target
 tag @s remove medieval_armory.damage_source

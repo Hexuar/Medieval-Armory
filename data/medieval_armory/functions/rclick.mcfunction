@@ -1,0 +1,2 @@
+execute if entity @s[scores={medieval_armory.polearm_cooldown=0},nbt={SelectedItem:{tag:{medieval_armory:{polearm:1b,has_durability:1b}}}}] run function medieval_armory:item/polearm/thrust
+scoreboard players reset @s medieval_armory.rclick

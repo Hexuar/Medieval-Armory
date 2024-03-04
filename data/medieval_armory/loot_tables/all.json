@@ -32,6 +32,15 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
+            "name": "medieval_armory:iron_billhook"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
             "name": "medieval_armory:iron_dane_axe"
           }
         ]
