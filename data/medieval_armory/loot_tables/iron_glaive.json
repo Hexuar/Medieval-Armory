@@ -40,34 +40,48 @@
                   "color": "dark_green",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221902,medieval_armory:{glaive:1b,polearm:1b,has_durability:1b,thrust_damage:7}}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221902
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2}"
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:generic.attack_speed",
-                  "name": "",
-                  "amount": -3.2,
-                  "operation": "addition",
-                  "slot": "mainhand"
-                },
-                {
-                  "attribute": "minecraft:generic.attack_damage",
-                  "name": "",
-                  "amount": 8,
-                  "operation": "addition",
-                  "slot": "mainhand"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "uuid": [
+                        1273384902,
+                        141508650,
+                        -1759190179,
+                        -1544612380
+                      ],
+                      "name": "generic.attack_speed",
+                      "amount": -3.2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "uuid": [
+                        566456785,
+                        813910448,
+                        -1985846590,
+                        -1691851851
+                      ],
+                      "name": "generic.attack_damage",
+                      "amount": 8,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
                 }
-              ]
+              }
             }
           ]
         }

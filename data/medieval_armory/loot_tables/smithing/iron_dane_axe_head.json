@@ -28,11 +28,23 @@
                   "italic": false,
                   "color": "blue"
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221900,voxelsmith:{crafting_item:1b},medieval_armory:{iron_dane_axe_head:1b}}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221900
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "crafting_item": true
+                },
+                "medieval_armory": {
+                  "iron_dane_axe_head": true
+                }
+              }
             }
           ]
         }
