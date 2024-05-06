@@ -1,0 +1,70 @@
+{
+    "criteria": {
+      "survival": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "gamemode": "survival"
+                  },
+                "equipment": {
+                  "mainhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "medieval_armory": {
+                            "has_durability": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "adventure": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "gamemode": "adventure"
+                  },
+                "equipment": {
+                  "mainhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "medieval_armory": {
+                            "has_durability": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "survival",
+        "adventure"
+      ]
+    ],
+    "rewards": {
+      "function": "medieval_armory:durability"
+    }
+  }
+  

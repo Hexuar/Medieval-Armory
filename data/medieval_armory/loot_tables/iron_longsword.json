@@ -48,6 +48,15 @@
               "value": 2221910
             },
             {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "medieval_armory": {
+                  "iron_longsword": true,
+                  "has_durability": true
+                }
+              }
+            },
+            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:attribute_modifiers": {

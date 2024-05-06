@@ -48,6 +48,15 @@
               "value": 2221911
             },
             {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "medieval_armory": {
+                  "iron_zweihander": true,
+                  "has_durability": true
+                }
+              }
+            },
+            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:attribute_modifiers": {

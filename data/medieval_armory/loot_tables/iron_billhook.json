@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:iron_sword",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -50,7 +50,15 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221914
+              "value": 2221919
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "medieval_armory": {
+                  "iron_billhook": true
+                }
+              }
             },
             {
               "function": "minecraft:set_components",

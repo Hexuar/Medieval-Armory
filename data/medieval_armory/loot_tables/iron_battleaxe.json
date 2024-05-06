@@ -43,6 +43,14 @@
               "value": 2221900
             },
             {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "medieval_armory": {
+                  "iron_battleaxe": true
+                }
+              }
+            },
+            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:attribute_modifiers": {

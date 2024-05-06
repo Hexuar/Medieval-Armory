@@ -12,6 +12,14 @@
                 "value": 2221902
               },
               {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "medieval_armory": {
+                    "kite_shield": true
+                  }
+                }
+              },
+              {
                 "function": "minecraft:set_name",
                 "name": {
                   "text": "Kite Shield",

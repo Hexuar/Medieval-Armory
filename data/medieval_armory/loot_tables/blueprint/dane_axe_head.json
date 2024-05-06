@@ -33,6 +33,9 @@
               {
                 "function": "minecraft:set_custom_data",
                 "tag": {
+                  "medieval_armory": {
+                    "dane_axe_head": true
+                  },
                   "voxelsmith": {
                     "blueprint":true
                   }
