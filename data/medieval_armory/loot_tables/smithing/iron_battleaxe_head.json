@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Dane Axe Head",
+                "text": "Iron Battleaxe Head",
                 "italic": false,
                 "color": "white"
               }
@@ -24,7 +24,7 @@
                   "color": "gray"
                 },
                 {
-                  "text": "1 Quarterstaff",
+                  "text": "2 Sticks",
                   "italic": false,
                   "color": "blue"
                 }
@@ -33,7 +33,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221906
+              "value": 2221900
             },
             {
               "function": "minecraft:set_custom_data",
@@ -42,7 +42,7 @@
                   "crafting_item": true
                 },
                 "medieval_armory": {
-                  "iron_dane_axe_head": true
+                  "iron_battleaxe_head": true
                 }
               }
             }

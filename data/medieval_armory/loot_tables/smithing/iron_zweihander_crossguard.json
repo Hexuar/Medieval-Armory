@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Dane Axe Head",
+                "text": "Iron Zweihander Crossguard",
                 "italic": false,
                 "color": "white"
               }
@@ -24,7 +24,17 @@
                   "color": "gray"
                 },
                 {
-                  "text": "1 Quarterstaff",
+                  "text": "1 Iron Pommel",
+                  "italic": false,
+                  "color": "blue"
+                },
+                {
+                  "text": "1 Iron Longsword Blade",
+                  "italic": false,
+                  "color": "blue"
+                },
+                {
+                  "text": "1 Stick",
                   "italic": false,
                   "color": "blue"
                 }
@@ -33,7 +43,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221906
+              "value": 2221924
             },
             {
               "function": "minecraft:set_custom_data",
@@ -42,7 +52,7 @@
                   "crafting_item": true
                 },
                 "medieval_armory": {
-                  "iron_dane_axe_head": true
+                  "iron_zweihander_crossguard": true
                 }
               }
             }
