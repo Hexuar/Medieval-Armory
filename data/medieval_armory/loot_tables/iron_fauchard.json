@@ -31,11 +31,6 @@
                   "italic": false
                 },
                 {
-                  "text": " 8 Thrust Damage",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
                   "text": " 1 Attack Speed",
                   "color": "dark_green",
                   "italic": false
@@ -50,13 +45,14 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221909
+              "value": 2221902
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "medieval_armory": {
-                  "iron_fauchard": true
+                  "iron_fauchard": true,
+                  "polearm": true
                 }
               }
             },

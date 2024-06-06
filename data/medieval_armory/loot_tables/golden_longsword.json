@@ -26,7 +26,7 @@
                   "italic": false
                 },
                 {
-                  "text": " 7 Attack Damage",
+                  "text": " 5 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -83,7 +83,7 @@
                         -1691851851
                       ],
                       "name": "generic.attack_damage",
-                      "amount": 6,
+                      "amount": 4,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },

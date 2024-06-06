@@ -26,12 +26,7 @@
                   "italic": false
                 },
                 {
-                  "text": " 8 Attack Damage",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "text": " 8 Thrust Damage",
+                  "text": " 6 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -50,7 +45,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221919
+              "value": 2221900
             },
             {
               "function": "minecraft:set_custom_data",
@@ -87,7 +82,7 @@
                         -1691851851
                       ],
                       "name": "generic.attack_damage",
-                      "amount": 7,
+                      "amount": 5,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
+          "name": "minecraft:golden_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -26,12 +26,7 @@
                   "italic": false
                 },
                 {
-                  "text": " 7 Attack Damage",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "text": " 7 Thrust Damage",
+                  "text": " 5 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -50,19 +45,23 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221913
+              "value": 2221903
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "medieval_armory": {
-                  "golden_pitchfork": true
+                  "golden_pitchfork": true,
+                  "polearm": true
                 }
               }
             },
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:tool": {
+                  "rules": []
+                },
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
@@ -87,7 +86,7 @@
                         -1691851851
                       ],
                       "name": "generic.attack_damage",
-                      "amount": 6,
+                      "amount": 4,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },

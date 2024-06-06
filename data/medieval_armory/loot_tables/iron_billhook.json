@@ -31,11 +31,6 @@
                   "italic": false
                 },
                 {
-                  "text": " 8 Thrust Damage",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
                   "text": " 1 Attack Speed",
                   "color": "dark_green",
                   "italic": false
@@ -50,7 +45,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221919
+              "value": 2221900
             },
             {
               "function": "minecraft:set_custom_data",

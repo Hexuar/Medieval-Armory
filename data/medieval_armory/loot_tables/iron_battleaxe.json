@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:iron_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -53,6 +53,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:tool": {
+                  "rules": []
+                },
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {

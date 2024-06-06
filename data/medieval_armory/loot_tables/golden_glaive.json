@@ -26,12 +26,7 @@
                   "italic": false
                 },
                 {
-                  "text": " 9 Attack Damage",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "text": " 7 Thrust Damage",
+                  "text": " 7 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -50,13 +45,14 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221907
+              "value": 2221903
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "medieval_armory": {
-                  "golden_glaive": true
+                  "golden_glaive": true,
+                  "polearm": true
                 }
               }
             },
@@ -87,7 +83,7 @@
                         -1691851851
                       ],
                       "name": "generic.attack_damage",
-                      "amount": 8,
+                      "amount": 6,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },

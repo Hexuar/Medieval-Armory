@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
+          "name": "minecraft:golden_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -26,7 +26,7 @@
                   "italic": false
                 },
                 {
-                  "text": " 11 Attack Damage",
+                  "text": " 9 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -40,7 +40,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221902
+              "value": 2221905
             },
             {
               "function": "minecraft:set_custom_data",
@@ -53,6 +53,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:tool": {
+                  "rules": []
+                },
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
@@ -77,7 +80,7 @@
                         -1691851851
                       ],
                       "name": "generic.attack_damage",
-                      "amount": 10,
+                      "amount": 8,
                       "operation": "add_value",
                       "slot": "mainhand"
                     }
