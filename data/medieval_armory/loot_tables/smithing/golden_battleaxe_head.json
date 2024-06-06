@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Pitchfork Head",
+                "text": "Golden Battleaxe Head",
                 "italic": false,
                 "color": "white"
               }
@@ -24,7 +24,7 @@
                   "color": "gray"
                 },
                 {
-                  "text": "1 Quarterstaff",
+                  "text": "2 Sticks",
                   "italic": false,
                   "color": "blue"
                 }
@@ -33,7 +33,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221936
+              "value": 2221926
             },
             {
               "function": "minecraft:set_custom_data",
@@ -42,7 +42,7 @@
                   "crafting_item": true
                 },
                 "medieval_armory": {
-                  "iron_spear_head": true
+                  "golden_battleaxe_head": true
                 }
               }
             }

@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Pitchfork Head",
+                "text": "Golden Pitchfork Head",
                 "italic": false,
                 "color": "white"
               }
@@ -42,7 +42,7 @@
                   "crafting_item": true
                 },
                 "medieval_armory": {
-                  "iron_spear_head": true
+                  "golden_spear_head": true
                 }
               }
             }

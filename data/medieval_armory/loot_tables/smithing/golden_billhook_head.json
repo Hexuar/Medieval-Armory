@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Pitchfork Head",
+                "text": "Golden Billhook Head",
                 "italic": false,
                 "color": "white"
               }
@@ -33,7 +33,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221936
+              "value": 2221928
             },
             {
               "function": "minecraft:set_custom_data",
@@ -42,7 +42,7 @@
                   "crafting_item": true
                 },
                 "medieval_armory": {
-                  "iron_spear_head": true
+                  "golden_billhook_head": true
                 }
               }
             }
