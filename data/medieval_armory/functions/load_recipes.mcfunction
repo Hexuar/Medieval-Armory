@@ -86,6 +86,34 @@ function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecr
 function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{wooden_longsword_blade:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{wooden_zweihander_crossguard:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{wooden_pommel:1b}}},count:1},{id:"minecraft:stick",count:1}],output:"medieval_armory:wooden_zweihander",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
 
 
+# Stone
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_battleaxe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"medieval_armory:stone_battleaxe",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_bearded_axe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"medieval_armory:stone_bearded_axe",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_billhook_head:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{quarterstaff:1b}}},count:1}],output:"medieval_armory:stone_billhook",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_dane_axe_head:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{quarterstaff:1b}}},count:1}],output:"medieval_armory:stone_dane_axe",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_fauchard_head:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{quarterstaff:1b}}},count:1}],output:"medieval_armory:stone_fauchard",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_glaive_head:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{quarterstaff:1b}}},count:1}],output:"medieval_armory:stone_glaive",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_halberd_head:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{quarterstaff:1b}}},count:1}],output:"medieval_armory:stone_halberd",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_longsword_blade:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{stone_crossguard:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{stone_pommel:1b}}},count:1},{id:"minecraft:stick",count:1}],output:"medieval_armory:stone_longsword",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_pike_head:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{quarterstaff:1b}}},count:1}],output:"medieval_armory:stone_pike",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_pitchfork_head:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{quarterstaff:1b}}},count:1}],output:"medieval_armory:stone_pitchfork",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_spear_head:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{quarterstaff:1b}}},count:1}],output:"medieval_armory:stone_spear",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_war_hammer_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"medieval_armory:stone_war_hammer",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{stone_longsword_blade:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{stone_zweihander_crossguard:1b}}},count:1},{components:{"minecraft:custom_data":{medieval_armory:{stone_pommel:1b}}},count:1},{id:"minecraft:stick",count:1}],output:"medieval_armory:stone_zweihander",block:"minecraft:crafting_table",sound:"block.crafter.craft"}}
+
+
 # Gold
 function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{medieval_armory:{golden_battleaxe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"medieval_armory:golden_battleaxe",block:"minecraft:anvil",sound:"block.anvil.use"}}
 

@@ -3,12 +3,12 @@
     "category": "equipment",
     "pattern": [
         "   ",
-        "   ",
-        "SSS"
+        " # ",
+        "###"
     ],
     "key": {
-        "S": {
-            "item": "minecraft:stick"
+        "#": {
+            "tag": "minecraft:planks"
         }
     },
     "result": {
@@ -22,7 +22,7 @@
                 "{\"text\": \"1 Longsword Blade\",\"italic\": false,\"color\": \"blue\"}",
                 "{\"text\": \"1 Stick\",\"italic\": false,\"color\": \"blue\"}"
             ],
-            "minecraft:custom_model_data": 2221899,
+            "minecraft:custom_model_data": 2221897,
             "minecraft:custom_data": {
                 "voxelsmith": {
                     "crafting_item": true

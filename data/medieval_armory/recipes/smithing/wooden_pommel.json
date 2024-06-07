@@ -1,19 +1,11 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "equipment",
-    "pattern": [
-        "   ",
-        " S ",
-        " # "
-    ],
-    "key": {
-        "#": {
-            "tag": "minecraft:planks"
-        },
-        "S": {
-            "item": "minecraft:stick"
+    "ingredients": [
+        {
+            "tag": "minecraft:wooden_buttons"
         }
-    },
+    ],
     "result": {
         "id": "minecraft:command_block",
         "components": {
@@ -25,7 +17,7 @@
                 "{\"text\": \"1 Longsword Blade\",\"italic\": false,\"color\": \"blue\"}",
                 "{\"text\": \"1 Stick\",\"italic\": false,\"color\": \"blue\"}"
             ],
-            "minecraft:custom_model_data": 2221898,
+            "minecraft:custom_model_data": 2221896,
             "minecraft:custom_data": {
                 "voxelsmith": {
                     "crafting_item": true

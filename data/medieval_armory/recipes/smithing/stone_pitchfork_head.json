@@ -3,30 +3,30 @@
     "category": "equipment",
     "pattern": [
         "# #",
-        "## ",
-        "#  "
+        "# #",
+        " # "
     ],
     "key": {
         "#": {
-            "tag": "minecraft:planks"
+            "tag": "minecraft:stone_crafting_materials"
         }
     },
     "result": {
         "id": "minecraft:command_block",
         "components": {
             "minecraft:rarity": "common",
-            "minecraft:item_name": "{\"text\":\"Wooden Billhook Head\"}",
+            "minecraft:item_name": "{\"text\":\"Stone Pitchfork Head\"}",
             "minecraft:lore": [
                 "{\"text\": \"Combine With:\",\"italic\": false,\"color\":gray}",
                 "{\"text\": \"1 Quarterstaff\",\"italic\": false,\"color\": \"blue\"}"
             ],
-            "minecraft:custom_model_data": 2221915,
+            "minecraft:custom_model_data": 2221935,
             "minecraft:custom_data": {
                 "voxelsmith": {
                     "crafting_item": true
                 },
                 "medieval_armory": {
-                    "wooden_billhook_head": true
+                    "stone_pitchfork_head": true
                 }
             }
         }

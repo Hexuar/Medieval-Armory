@@ -3,12 +3,12 @@
     "category": "equipment",
     "pattern": [
         "   ",
-        "S  ",
-        "S  "
+        " # ",
+        "#  "
     ],
     "key": {
-        "S": {
-            "item": "minecraft:stick"
+        "#": {
+            "tag": "minecraft:planks"
         }
     },
     "result": {

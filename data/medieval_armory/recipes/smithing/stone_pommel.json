@@ -1,34 +1,29 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "equipment",
-    "pattern": [
-        "###",
-        " # ",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "tag": "minecraft:planks"
+    "ingredients": [
+        {
+            "tag": "minecraft:stone_buttons"
         }
-    },
+    ],
     "result": {
         "id": "minecraft:command_block",
         "components": {
             "minecraft:rarity": "common",
-            "minecraft:item_name": "{\"text\":\"Wooden Zweihänder Crossguard\"}",
+            "minecraft:item_name": "{\"text\":\"Stone Pommel\"}",
             "minecraft:lore": [
                 "{\"text\": \"Combine With:\",\"italic\": false,\"color\":gray}",
-                "{\"text\": \"1 Wooden Pommel\",\"italic\": false,\"color\": \"blue\"}",
+                "{\"text\": \"1 Stone Crossguard\",\"italic\": false,\"color\": \"blue\"}",
                 "{\"text\": \"1 Longsword Blade\",\"italic\": false,\"color\": \"blue\"}",
                 "{\"text\": \"1 Stick\",\"italic\": false,\"color\": \"blue\"}"
             ],
-            "minecraft:custom_model_data": 2221925,
+            "minecraft:custom_model_data": 2221898,
             "minecraft:custom_data": {
                 "voxelsmith": {
                     "crafting_item": true
                 },
                 "medieval_armory": {
-                    "wooden_zweihander_crossguard": true
+                    "stone_pommel": true
                 }
             }
         }
