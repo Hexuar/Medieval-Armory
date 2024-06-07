@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Wooden Zweihänder Crossguard",
+                "italic": false,
+                "color": "white"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Combine With:",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "1 Wooden Pommel",
+                  "italic": false,
+                  "color": "blue"
+                },
+                {
+                  "text": "1 Wooden Longsword Blade",
+                  "italic": false,
+                  "color": "blue"
+                },
+                {
+                  "text": "1 Stick",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221925
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "crafting_item": true
+                },
+                "medieval_armory": {
+                  "wooden_zweihander_crossguard": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

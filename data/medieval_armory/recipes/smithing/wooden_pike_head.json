@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "   ",
+        "S  ",
+        "S  "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:command_block",
+        "components": {
+            "minecraft:rarity": "common",
+            "minecraft:item_name": "{\"text\":\"Wooden Pike Head\"}",
+            "minecraft:lore": [
+                "{\"text\": \"Combine With:\",\"italic\": false,\"color\":gray}",
+                "{\"text\": \"1 Quarterstaff\",\"italic\": false,\"color\": \"blue\"}"
+            ],
+            "minecraft:custom_model_data": 2221921,
+            "minecraft:custom_data": {
+                "voxelsmith": {
+                    "crafting_item": true
+                },
+                "medieval_armory": {
+                    "wooden_pike_head": true
+                }
+            }
+        }
+    }
+}

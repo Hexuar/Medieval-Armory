@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Zweihander Crossguard",
+                "text": "Iron Zweihänder Crossguard",
                 "italic": false,
                 "color": "white"
               }
@@ -43,7 +43,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221938
+              "value": 2221964
             },
             {
               "function": "minecraft:set_custom_data",

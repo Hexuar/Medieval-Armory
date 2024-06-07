@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Zweihander Crossguard Blueprint",
+                "text": "Zweihänder Crossguard Blueprint",
                 "italic": false,
                 "color": "white"
               }

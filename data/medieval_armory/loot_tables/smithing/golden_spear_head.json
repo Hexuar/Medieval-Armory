@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Golden Pitchfork Head",
+                "text": "Golden Spear Head",
                 "italic": false,
                 "color": "white"
               }
@@ -33,7 +33,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221936
+              "value": 2221949
             },
             {
               "function": "minecraft:set_custom_data",
