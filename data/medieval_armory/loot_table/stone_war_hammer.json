@@ -60,26 +60,14 @@
                   "modifiers": [
                     {
                       "type": "minecraft:generic.attack_speed",
-                      "uuid": [
-                        1273384902,
-                        141508650,
-                        -1759190179,
-                        -1544612380
-                      ],
-                      "name": "generic.attack_speed",
+                      "id": "medieval_armory.weapon.attack_speed",
                       "amount": -3.2,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "type": "minecraft:generic.attack_damage",
-                      "uuid": [
-                        566456785,
-                        813910448,
-                        -1985846590,
-                        -1691851851
-                      ],
-                      "name": "generic.attack_damage",
+                      "id": "medieval_armory.weapon.attack_damage",
                       "amount": 9,
                       "operation": "add_value",
                       "slot": "mainhand"

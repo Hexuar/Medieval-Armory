@@ -39,6 +39,7 @@
                             -1544612380
                         ],
                         "name": "generic.attack_speed",
+                        "id": "medieval_armory.weapon.attack_speed",
                         "amount": -2.6,
                         "operation": "add_value",
                         "slot": "mainhand"
@@ -52,6 +53,7 @@
                             -1691851851
                         ],
                         "name": "generic.attack_damage",
+                      "id": "medieval_armory.weapon.attack_damage",
                         "amount": 2,
                         "operation": "add_value",
                         "slot": "mainhand"
@@ -65,6 +67,7 @@
                             -36910262
                         ],
                         "name": "player.entity_interaction_range",
+                      "id": "medieval_armory.weapon.entity_interaction_range",
                         "amount": 1,
                         "operation": "add_value",
                         "slot": "mainhand"
