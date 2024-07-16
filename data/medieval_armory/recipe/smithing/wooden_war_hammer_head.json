@@ -17,7 +17,7 @@
             "minecraft:rarity": "common",
             "minecraft:item_name": "{\"text\":\"Wooden War Hammer Head\"}",
             "minecraft:lore": [
-                "{\"text\": \"Combine With:\",\"italic\": false,\"color\":gray}",
+                "{\"text\": \"Combine With:\",\"italic\": false,\"color\":\"gray\"}",
                 "{\"text\": \"2 Sticks\",\"italic\": false,\"color\": \"blue\"}"
             ],
             "minecraft:custom_model_data": 2221924,

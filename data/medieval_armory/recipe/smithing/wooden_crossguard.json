@@ -17,7 +17,7 @@
             "minecraft:rarity": "common",
             "minecraft:item_name": "{\"text\":\"Wooden Crossguard\"}",
             "minecraft:lore": [
-                "{\"text\": \"Combine With:\",\"italic\": false,\"color\":gray}",
+                "{\"text\": \"Combine With:\",\"italic\": false,\"color\":\"gray\"}",
                 "{\"text\": \"1 Wooden Pommel\",\"italic\": false,\"color\": \"blue\"}",
                 "{\"text\": \"1 Longsword Blade\",\"italic\": false,\"color\": \"blue\"}",
                 "{\"text\": \"1 Stick\",\"italic\": false,\"color\": \"blue\"}"
