@@ -65,14 +65,14 @@
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
-                      "type": "minecraft:generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "id": "medieval_armory.weapon.attack_speed",
                       "amount": -3,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
-                      "type": "minecraft:generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "id": "medieval_armory.weapon.attack_damage",
                       "amount": 5,
                       "operation": "add_value",
